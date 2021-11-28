@@ -13,19 +13,13 @@ const Contact = () => {
           <div className="c-mail">
             <form className="c-mform">
               <label>Name</label>
-              <input
-                type="text"
-                placeholder="Your name... "
-              />
+              <input type="text" placeholder="Your name... " />
               <label>Email</label>
-              <input
-                type="email"
-                placeholder="Your email... "
-              />
+              <input type="email" placeholder="Your email... " />
               <label>Message</label>
               <textarea
                 className="c-message"
-                row="5"
+                row="4"
                 placeholder="Anything you want to say to me... "
               />
               <input classname="c-sub" type="submit" value="Submit" />
@@ -34,27 +28,27 @@ const Contact = () => {
         </div>
         <div className="c-boxgrid">
           <div className="c-box">
-            <img
-              alt="phone icon"
-              src="https://img.icons8.com/ios/100/000000/apple-phone.png"
-            />
-            <h2>Phone:</h2>
-            <h4>123456789</h4>
+            <a href="../extras/CopyofResume.docx.pdf" target="blank">
+              <img
+                alt="resume"
+                src="https://img.icons8.com/ios/150/000000/resume.png"
+              />
+            </a>
           </div>
 
           <div className="c-box">
-            <img
-              alt="mail icon"
-              src="https://img.icons8.com/ios/100/000000/apple-mail.png"
-            />
-            <h2>Email:</h2>
-            <h4> abc@gmail.com</h4>
+            <a href="mailto:abc@example.com?subject = Feedback&body = Message">
+              <img
+                alt="mail icon"
+                src="https://img.icons8.com/ios/150/000000/apple-mail.png"
+              />
+            </a>
           </div>
           <div className="c-box">
             <a href="https://www.linkedin.com/in/lpham1357/">
               <img
                 classname="w-icon"
-                src="https://img.icons8.com/ios-filled/100/000000/linkedin.png"
+                src="https://img.icons8.com/ios-filled/150/000000/linkedin.png"
                 alt="linkedin icon"
               />
             </a>
@@ -63,11 +57,16 @@ const Contact = () => {
             <a href="https://github.com/SuggestedName">
               <img
                 classname="w-icon"
-                src="https://img.icons8.com/ios-filled/100/000000/github.png"
+                src="https://img.icons8.com/ios-filled/150/000000/github.png"
                 alt="github icon"
               />
             </a>
           </div>
+        </div>
+        <div className="c-footer">
+          <a href="https://suggestedname.github.io/Web/">
+            <h3 className="c-fh3"> &copy; Made by Lap Pham</h3>
+          </a>
         </div>
       </div>
     </div>
