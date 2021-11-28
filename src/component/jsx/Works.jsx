@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/works.css";
+
 const Works = () => {
   return (
     <div className="w">
@@ -41,6 +42,42 @@ const Works = () => {
                 reprehende.
               </p>
             </div>
+          </div>
+        </div>
+        <h2>Skills</h2>
+        <div className="w-skills">
+          <div className="w-sgrid">
+            <img
+              classname="w-icon"
+              src="https://img.icons8.com/ios-filled/50/000000/html-5--v1.png"
+              alt = "html icon"
+            />
+            <img
+              classname="w-icon"
+              src="https://img.icons8.com/ios-filled/50/000000/css3.png"
+              alt = "css icon"
+            />
+            <img
+              classname="w-icon"
+              src="https://img.icons8.com/ios-filled/50/000000/c-plus-plus-logo.png"
+              alt = "c++ icon"
+            />
+            <img
+              classname="w-icon"
+              src="https://img.icons8.com/ios-filled/50/000000/javascript.png"
+              alt = "js icon"
+            />
+            <img
+              classname="w-icon"
+              src="https://img.icons8.com/ios/50/000000/java-coffee-cup-logo--v1.png"
+              alt = "java icon"
+            />
+            <img 
+            classname="w-icon"
+            src="https://img.icons8.com/ios-filled/50/000000/react-native.png"
+            alt = "react icon"
+            />
+
           </div>
         </div>
       </div>

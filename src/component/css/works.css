@@ -1,5 +1,5 @@
 .w {
-  height: 70vh;
+  height: 75vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,14 +10,15 @@
   flex-direction: column;
   height: 90%;
   width: 100%;
-  padding: .5em;
-  margin: .5em;
+  padding: 0.5em;
+  margin: 0.5em;
   text-align: center;
 }
 .w-grid {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 3em;
   display: grid;
+  height: 42.5vh;
   justify-items: center;
 }
 .w-card {
@@ -98,4 +99,13 @@
   100% {
     color: orange;
   }
+}
+.w-sgrid{
+  display: flex;
+  justify-content: center;
+}
+.w-skills{
+  
+  height: 7.5vh;
+  
 }
