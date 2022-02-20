@@ -37,7 +37,7 @@ const Contact = () => {
           </div>
 
           <div className="c-box">
-            <a href="mailto:abc@example.com?subject = Feedback&body = Message">
+            <a href="mailto:lpham1357@gmail.com?subject = Feedback&body = Message">
               <img
                 alt="mail icon"
                 src="https://img.icons8.com/ios/150/000000/apple-mail.png"
